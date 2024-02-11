@@ -9,6 +9,8 @@ This is plugin for [Acorn](http://marijnhaverbeke.nl/acorn/) - a tiny, fast Java
 
 It was created as an experimental alternative, faster [React.js JSX](http://facebook.github.io/react/docs/jsx-in-depth.html) parser. Later, it replaced the [official parser](https://github.com/facebookarchive/esprima) and these days is used by many prominent development tools.
 
+> This is a fork intended to satisfy a specific use case while awaiting the migration of the original package to ESM - https://github.com/acornjs/acorn-jsx/issues/112
+
 ## Transpiler
 
 Please note that this tool only parses source code to JSX AST, which is useful for various language tools and services. If you want to transpile your code to regular ES5-compliant JavaScript with source map, check out [Babel](https://babeljs.io/) and [Buble](https://buble.surge.sh/) transpilers which use `acorn-jsx` under the hood.
@@ -19,7 +21,7 @@ Requiring this module provides you with an Acorn plugin that you can use like th
 
 ```javascript
 var acorn = require("acorn");
-var jsx = require("acorn-jsx");
+var jsx = require("@projectevergreen/acorn-jsx-esm");
 acorn.Parser.extend(jsx()).parse("my(<jsx/>, 'code');");
 ```
 
