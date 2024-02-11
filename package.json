@@ -1,8 +1,15 @@
 {
-  "name": "acorn-jsx",
+  "name": "@projectevergreen/acorn-jsx-esm",
   "description": "Modern, fast React.js JSX parser",
-  "homepage": "https://github.com/acornjs/acorn-jsx",
-  "version": "5.3.2",
+  "homepage": "https://github.com/ProjectEvergreen/acorn-jsx-esm",
+  "version": "0.1.0",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./index.js"
+  },
   "maintainers": [
     {
       "name": "Ingvar Stepanyan",
@@ -12,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/acornjs/acorn-jsx"
+    "url": "https://github.com/ProjectEvergreen/acorn-jsx-esm"
   },
   "license": "MIT",
   "scripts": {
