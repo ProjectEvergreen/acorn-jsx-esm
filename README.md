@@ -9,7 +9,7 @@ This is plugin for [Acorn](http://marijnhaverbeke.nl/acorn/) - a tiny, fast Java
 
 It was created as an experimental alternative, faster [React.js JSX](http://facebook.github.io/react/docs/jsx-in-depth.html) parser. Later, it replaced the [official parser](https://github.com/facebookarchive/esprima) and these days is used by many prominent development tools.
 
-> This is a fork intended to satisfy a specific use and awaiting the migration of the original package to ESM - https://github.com/acornjs/acorn-jsx/issues/112
+> This is a fork intended to satisfy a specific use case while awaiting the migration of the original package to ESM - https://github.com/acornjs/acorn-jsx/issues/112
 
 ## Transpiler
 
