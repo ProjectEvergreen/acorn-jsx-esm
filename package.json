@@ -2,7 +2,7 @@
   "name": "@projectevergreen/acorn-jsx-esm",
   "description": "Modern, fast React.js JSX parser",
   "homepage": "https://github.com/ProjectEvergreen/acorn-jsx-esm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "publishConfig": {
     "access": "public"
