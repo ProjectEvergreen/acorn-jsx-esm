@@ -62,4 +62,4 @@ declare namespace jsx {
   }
 }
 
-export = jsx;
+export default jsx;
